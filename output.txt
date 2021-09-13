@@ -1,0 +1,101 @@
+PS F:\Documents\Academics\2021 Summer\cecs-451-Artificial-Intelligence\Week 3\Project 3\src> python .\main.py
+
+Part I: Import data from CSV file to Tree structure
+
+Part II - Small File: Minimax:
+B1 [ 3 ]
+B2 [ 12 ]
+B3 [ 8 ]
+B [ 3 ]
+C1 [ 2 ]
+C2 [ 4 ]
+C3 [ 6 ]
+C [ 2 ]
+D1 [ 14 ]
+D2 [ 5 ]
+D3 [ 2 ]
+D [ 2 ]
+A [ 3 ]
+
+Part II - Big File: Minimax:
+H1 [ 10 ]
+H2 [ 5 ]
+H [ 5 ]
+I1 [ 7 ]
+I2 [ 11 ]
+I [ 7 ]
+D [ 7 ]
+J1 [ 12 ]
+J2 [ 8 ]
+J [ 8 ]
+K1 [ 9 ]
+K2 [ 8 ]
+K [ 8 ]
+E [ 8 ]
+B [ 7 ]
+L1 [ 5 ]
+L2 [ 12 ]
+L [ 5 ]
+M1 [ 11 ]
+M2 [ 12 ]
+M [ 11 ]
+F [ 11 ]
+N1 [ 9 ]
+N2 [ 8 ]
+N [ 8 ]
+O1 [ 7 ]
+O2 [ 10 ]
+O [ 7 ]
+G [ 8 ]
+C [ 8 ]
+A [ 8 ]
+
+
+Part III - Small File - Minimax w/ Alpha-Beta:
+A [ 3.0 ] False
+B [ -inf ] True
+C [ -inf ] True
+D [ -inf ] True
+B1 [ 3.0 ] True
+B2 [ 12.0 ] False
+B3 [ 8.0 ] False
+C1 [ 2.0 ] True
+C2 [ 4.0 ] False
+C3 [ 6.0 ] False
+D1 [ 14.0 ] True
+D2 [ 5.0 ] False
+D3 [ 2.0 ] False
+
+Part III - Big File - Minimax w/ Alpha-Beta:
+A [ 8.0 ] False
+B [ -inf ] True
+C [ -inf ] True
+D [ 7.0 ] True
+E [ 8.0 ] False
+F [ 11.0 ] True
+G [ 8.0 ] False
+H [ -inf ] True
+I [ -inf ] True
+J [ 8.0 ] False
+K [ 8.0 ] False
+L [ -inf ] True
+M [ -inf ] True
+N [ 8.0 ] False
+O [ 7.0 ] False
+H1 [ 10.0 ] True
+H2 [ 5.0 ] False
+I1 [ 7.0 ] True
+I2 [ 11.0 ] False
+J1 [ 12.0 ] False
+J2 [ 8.0 ] False
+K1 [ 9.0 ] False
+K2 [ 8.0 ] False
+L1 [ 5.0 ] True
+L2 [ 12.0 ] False
+M1 [ 11.0 ] True
+M2 [ 12.0 ] False
+N1 [ 9.0 ] False
+N2 [ 8.0 ] False
+O1 [ 7.0 ] False
+O2 [ 10.0 ] False
+PS F:\Documents\Academics\2021 Summer\cecs-451-Artificial-Intelligence\Week 3\Project 3\src>
